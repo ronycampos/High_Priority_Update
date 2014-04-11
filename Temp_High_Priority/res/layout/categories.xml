@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:overScrollMode="always"
+    android:splitMotionEvents="true" >
+
+    <Button
+        android:id="@+id/background2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/categoryScrollView"
+        android:background="@drawable/hp_background" />
+
+    <HorizontalScrollView
+        android:id="@+id/categoryScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/addCategoryBubble"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/addpbubble" />
+
+            <Button
+                android:id="@+id/addToDoCategory"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/dgreybubble" />
+
+            <Button
+                android:id="@+id/categoryBubble1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble7"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble8"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble9"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble13"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+
+            <Button
+                android:id="@+id/categoryBubble15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/blankebubble" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

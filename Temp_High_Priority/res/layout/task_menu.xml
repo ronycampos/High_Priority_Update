@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_boarder"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_boarder"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/TableRow01"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+        </TableRow>
+
+        <TextView
+            android:id="@+id/titleCategoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F0F0F0"
+            android:textSize="@dimen/twentyfour"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TextView
+            android:id="@+id/priorityCategoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#707070"
+            android:textSize="@dimen/twentyfour" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TextView
+            android:id="@+id/timeCategoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#707070"
+            android:textSize="@dimen/twentyfour" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TextView
+            android:id="@+id/descriptionCategoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="@dimen/five"
+            android:textColor="#707070"
+            android:textSize="@dimen/eighteen" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:scrollbars="none" >
+
+            <Button
+                android:id="@+id/saveCategoryBubble"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/deletbubble" />
+
+            <Button
+                android:id="@+id/cancleCategoryBubble"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/cancelmbubble" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>

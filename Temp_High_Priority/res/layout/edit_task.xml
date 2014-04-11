@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:gravity="top|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight=".25" >
+        </TableRow>
+
+        <TextView
+            android:id="@+id/priorityCategoryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight=".30"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/edit_task"
+            android:textColor="#F0F0F0"
+            android:textSize="@dimen/twentyfour" />
+
+        <EditText
+            android:id="@+id/categoryTitleET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:ems="10"
+            android:hint="@string/task_title"
+            android:textColorHint="#909090" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <RadioGroup
+            android:id="@+id/categoryPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioCHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/high_priority"
+                android:textColor="#F0F0F0" />
+
+            <RadioButton
+                android:id="@+id/radioCMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/medium_priority"
+                android:textColor="#F0F0F0" />
+
+            <RadioButton
+                android:id="@+id/radioCLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/low_priority"
+                android:textColor="#F0F0F0" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".10"
+            android:gravity="center_horizontal" >
+
+            <DatePicker
+                android:id="@+id/datePicker1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:calendarViewShown="false"
+                android:spinnersShown="true"
+                android:textColor="#00FFFF" />
+
+        </TableRow>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <EditText
+            android:id="@+id/taskDescriptionET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:lines="@integer/four"
+            android:scrollbars="vertical"
+           
+            android:singleLine="false"
+            android:textColor="#F0F0F0"
+            android:textColorHint="#909090" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/five"
+            android:src="@drawable/linegrey" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".15"
+            android:gravity="center_vertical|center_horizontal"
+            android:scrollbars="none" >
+
+            <Button
+                android:id="@+id/saveCategoryBubble"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/savebubble" />
+
+            <Button
+                android:id="@+id/cancleCategoryBubble"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="50dp"
+                android:background="@drawable/cancelmbubble" />
+        </TableRow>
+    </LinearLayout>
+
+</LinearLayout>
